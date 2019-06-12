@@ -1,0 +1,220 @@
+html {
+	width: 100%;
+	background: white;
+	font-family: 'Orbitron', arial;
+	height: 2200px;
+}
+
+* {
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+
+div {
+    display: block;
+}
+
+a {
+	text-decoration: none;
+}
+
+::selection {
+	background: #ff6ebe; 
+}
+
+/*------------------------HEADER------------------------*/
+
+header {
+	background: url(https://pp.userapi.com/c846217/v846217921/1f3e22/OsajCbwOXlc.jpg);
+	background-size: contain;
+	background-attachment: fixed;
+	width: 100%;
+	height: 600px;
+	vertical-align: top;
+	margin-bottom: 100px;
+}
+
+/*--------------------nav--------------------*/
+	
+	nav {
+		font-size: 25px;
+		text-align: center;
+		padding-top: 25px;
+	}
+	
+	nav a {
+		margin-left: 20px;
+		margin-right: 20px;
+		color: white;
+	}
+	
+	nav a:hover {
+		text-decoration: underline;
+	}
+
+/*------------------------MAIN------------------------*/
+
+.main_about_top {
+	color: #0F91FF;
+	width: 80%;
+	margin-left: 10%;
+	padding-bottom: 50px;
+	font-size: 28px;
+}
+
+.main_about {
+	color: black;
+	width: 75%;
+	margin-left: 10%;
+	margin-right: 15%;
+	padding-bottom: 70px;
+	font-size: 22px;
+	line-height: 1.9em;
+}
+
+.gallery {
+	width: 80%;
+	margin: 0 auto;
+	margin-bottom: 23%;
+}
+
+.in_gallery {
+	width: 29%;
+	margin: 1%;
+	height: 180px;
+	transition: 0.5s;
+	opacity: 0.7;
+	position: relative;
+	z-index: 899;
+}
+
+.in_gallery:hover {
+	opacity: 1;
+	cursor: pointer;
+}
+
+/*------------------------FOOTER------------------------*/
+
+.toplogo {
+	margin-top: 500px;
+	display: block;
+	margin: 0 auto;	
+	width: 20%;
+	transition: 0.5s;
+	opacity: 0.7;
+}
+
+.toplogo:hover {
+	opacity: 1;
+	cursor: pointer;
+}
+
+/*------------------------media------------------------*/
+/*-----------------------------------------------------*/
+/*------------------------media------------------------*/
+
+@media (max-width: 769px) {
+nav {
+	font-size: 50px;
+}
+
+nav a {
+	width: 100%;
+	float: left;
+	margin-left: 0px;
+	margin-right: 0px;
+	color: white;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+	
+header {
+	background: url(https://pp.userapi.com/c849036/v849036071/1b60d0/PBGhJpamY_A.jpg);
+	background-size: contain;
+	background-attachment: fixed;
+	width: 100%;
+	height: 600px;
+	vertical-align: top;
+	margin-bottom: 100px;
+}
+
+.in_gallery {
+	height: 330px;
+	width: 610px;
+}
+
+html {
+	height: 2000px;
+}
+
+.toplogo {
+	display: none;
+}
+
+}
+
+@media (max-width: 321px) {
+nav {
+	font-size: 30px;
+}
+
+nav a {
+	width: 100%;
+	float: left;
+	margin-left: 0px;
+	margin-right: 0px;
+	color: white;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+	
+header {
+	background: url(https://pp.userapi.com/c849036/v849036071/1b60d0/PBGhJpamY_A.jpg);
+	background-size: auto;
+	background-attachment: fixed;
+	width: 100%;
+	height: 450px;
+	vertical-align: top;
+	margin-bottom: 100px;
+}
+
+.in_gallery {
+	height: 180px;
+	width: 250px;
+}
+
+html {
+	height: 2000px;
+}
+
+.toplogo {
+	display: none;
+}
+
+.main_about_top {
+	text-align: center;
+	width: 100%;
+	margin-left: 0%;
+	padding-bottom: 50px;
+	font-size: 20px;
+}
+
+.main_about {
+	text-align: justify;
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+	padding-bottom: 70px;
+	font-size: 15px;
+	line-height: 1.9em;
+}
+
+}
+
+
+
+
+
+
+

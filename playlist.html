@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Music only</title>
+		<link href="css/playlist.css" rel="stylesheet" type="text/css">
+		<link rel="shortcut icon" href="img/logo.png" type="Images/x-icon">
+		<link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Libre+Barcode+39+Text|Orbitron" rel="stylesheet">
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script src="js/audioplayer.js"></script>
+		<meta name = "viewport" content = "width=device-width, initial-scale = 1">
+		<meta charset="utf-8">
+	</head>
+	<body>
+	
+		<a name="top"></a>
+		
+		<header>	
+			<nav>
+				<a href="index.html">Main</a>
+				<a href="playlist.html">Playlist</a>
+				<a href="about_us.html">About us</a>
+				<a href="news.html">News</a>
+				<a href="contacts.html">Contacts</a>
+			</nav>
+
+			<audio id="player1" src="audio\Au5 feat. Danyka Nadeau - Inside.mp3"></audio>
+			<audio id="player2" src="audio\Alan Walker-Force.mp3"></audio>
+			<audio id="player3" src="audio\Billie Eilish-Ocean Eyes.mp3"></audio>
+			<audio id="player4" src="audio\Timbaland-Apologize.mp3"></audio>
+			<audio id="player5" src="audio\Major Lazer DJ Snake M-Lean On.mp3"></audio>
+			<audio id="player6" src="audio\Marshmello-Imagine.mp3"></audio>
+			<audio id="player7" src="audio\Marshmello-MovingOn.mp3"></audio>
+			<audio id="player8" src="audio\Sub Urban-Cradles.mp3"></audio>
+		</header>
+		
+			<div class="main_about_top">
+				Playlist
+			</div>
+			
+			<section>
+				<div class="audio">
+					<button class="play" onclick="document.getElementById('player1').play()"><img class="inplay" src="img/play.png" alt=""></button>
+					<button class="pause" onclick="document.getElementById('player1').pause()"><img class="inpause" src="img/pause.png" alt=""></button>
+					<div class="text-mus">Au5 feat. Danyka Nadeau - Inside</div>
+					<button class="minus" onclick="document.getElementById('player1').volume-=0.1"><img class="inminus" src="img/volume2.png" alt=""></button>
+					<button class="plus" onclick="document.getElementById('player1').volume+=0.1"><img class="inplus" src="img/volume1.png" alt=""></button>
+				</div>
+				<div class="audio">
+					<button class="play" onclick="document.getElementById('player2').play()"><img class="inplay" src="img/play.png" alt=""></button>
+					<button class="pause" onclick="document.getElementById('player2').pause()"><img class="inpause" src="img/pause.png" alt=""></button>
+					<div class="text-mus">Alan Walker-Force</div>
+					<button class="minus" onclick="document.getElementById('player2').volume-=0.1"><img class="inminus" src="img/volume2.png" alt=""></button>
+					<button class="plus" onclick="document.getElementById('player2').volume+=0.1"><img class="inplus" src="img/volume1.png" alt=""></button>
+				</div>
+				<div class="audio">
+					<button class="play" onclick="document.getElementById('player3').play()"><img class="inplay" src="img/play.png" alt=""></button>
+					<button class="pause" onclick="document.getElementById('player3').pause()"><img class="inpause" src="img/pause.png" alt=""></button>
+					<div class="text-mus">Billie Eilish-Ocean Eyes</div>
+					<button class="minus" onclick="document.getElementById('player3').volume-=0.1"><img class="inminus" src="img/volume2.png" alt=""></button>
+					<button class="plus" onclick="document.getElementById('player3').volume+=0.1"><img class="inplus" src="img/volume1.png" alt=""></button>
+				</div>
+				<div class="audio">
+					<button class="play" onclick="document.getElementById('player4').play()"><img class="inplay" src="img/play.png" alt=""></button>
+					<button class="pause" onclick="document.getElementById('player4').pause()"><img class="inpause" src="img/pause.png" alt=""></button>
+					<div class="text-mus">Timbaland-Apologize</div>
+					<button class="minus" onclick="document.getElementById('player4').volume-=0.1"><img class="inminus" src="img/volume2.png" alt=""></button>
+					<button class="plus" onclick="document.getElementById('player4').volume+=0.1"><img class="inplus" src="img/volume1.png" alt=""></button>
+				</div>
+				<div class="audio">
+					<button class="play" onclick="document.getElementById('player5').play()"><img class="inplay" src="img/play.png" alt=""></button>
+					<button class="pause" onclick="document.getElementById('player5').pause()"><img class="inpause" src="img/pause.png" alt=""></button>
+					<div class="text-mus">Major Lazer DJ Snake M-Lean On</div>
+					<button class="minus" onclick="document.getElementById('player5').volume-=0.1"><img class="inminus" src="img/volume2.png" alt=""></button>
+					<button class="plus" onclick="document.getElementById('player5').volume+=0.1"><img class="inplus" src="img/volume1.png" alt=""></button>
+				</div>
+				<div class="audio">
+					<button class="play" onclick="document.getElementById('player6').play()"><img class="inplay" src="img/play.png" alt=""></button>
+					<button class="pause" onclick="document.getElementById('player6').pause()"><img class="inpause" src="img/pause.png" alt=""></button>
+					<div class="text-mus">Marshmello-Imagine</div>
+					<button class="minus" onclick="document.getElementById('player6').volume-=0.1"><img class="inminus" src="img/volume2.png" alt=""></button>
+					<button class="plus" onclick="document.getElementById('player6').volume+=0.1"><img class="inplus" src="img/volume1.png" alt=""></button>
+				</div>
+				<div class="audio">
+					<button class="play" onclick="document.getElementById('player7').play()"><img class="inplay" src="img/play.png" alt=""></button>
+					<button class="pause" onclick="document.getElementById('player7').pause()"><img class="inpause" src="img/pause.png" alt=""></button>
+					<div class="text-mus">Marshmello-MovingOn</div>
+					<button class="minus" onclick="document.getElementById('player7').volume-=0.1"><img class="inminus" src="img/volume2.png" alt=""></button>
+					<button class="plus" onclick="document.getElementById('player7').volume+=0.1"><img class="inplus" src="img/volume1.png" alt=""></button>
+				</div>
+				<div class="audio">
+					<button class="play" onclick="document.getElementById('player8').play()"><img class="inplay" src="img/play.png" alt=""></button>
+					<button class="pause" onclick="document.getElementById('player8').pause()"><img class="inpause" src="img/pause.png" alt=""></button>
+					<div class="text-mus">Sub Urban-Cradles</div>
+					<button class="minus" onclick="document.getElementById('player8').volume-=0.1"><img class="inminus" src="img/volume2.png" alt=""></button>
+					<button class="plus" onclick="document.getElementById('player8').volume+=0.1"><img class="inplus" src="img/volume1.png" alt=""></button>
+				</div>
+			</section>
+			
+		<footer>		
+			<a href="#top"><img class="toplogo" src="img/go.png"></a>
+		</footer>
+	</body>
+</html>
